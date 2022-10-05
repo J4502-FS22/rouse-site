@@ -1,12 +1,9 @@
 /* font-family: 'Helvetica', sans-serif;
 font-family: 'Garamonod', serif;
 font-family: 'Roboto', sans-serif; */
-div {
-  align-content: center;
-}
 html {
   font-size: 15px;
-  background-color: rgb(234, 183, 175);
+  background-color: powderblue;
 }
 img {
   height: 500px;
