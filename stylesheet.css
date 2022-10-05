@@ -1,0 +1,41 @@
+/* font-family: 'Helvetica', sans-serif;
+font-family: 'Garamonod', serif;
+font-family: 'Roboto', sans-serif; */
+div {
+  align-content: center;
+}
+html {
+  font-size: 15px;
+  background-color: rgb(234, 183, 175);
+}
+img {
+  height: 500px;
+  border: none;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Garamond', serif;
+}
+h1 {
+  font-family: 'Helvetica', serif;
+  font-size: 3rem;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+}
+a {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  list-style: none;
+}
