@@ -8,6 +8,7 @@ html {
 img {
   height: 500px;
   border: none;
+  display: flex;
 }
 
 body {
@@ -16,23 +17,28 @@ body {
   font-family: 'Garamond', serif;
 }
 h1 {
-  font-family: 'Helvetica', serif;
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
   font-size: 3rem;
-  align-items: center;
 }
 
 h2 {
-  font-size: 2rem;
   font-family: 'Helvetica', sans-serif;
   font-style: italic;
+  font-size: 2rem;
 }
 ul {
   font-family: 'Roboto', sans-serif;
   font-style: italic, oblique;
   list-style: none;
 }
+li {
+  color: dimgrey;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic, oblique;
+}
 a {
   color: dimgrey;
-  font-family: 'Roboto', sans-sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic, oblique;
 }
