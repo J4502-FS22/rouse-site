@@ -26,13 +26,13 @@ h2 {
   font-family: 'Helvetica', sans-serif;
   font-style: italic;
 }
-a {
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
-}
 ul {
   font-family: 'Roboto', sans-serif;
-  font-style: italic;
+  font-style: italic, oblique;
   list-style: none;
+}
+a {
+  color: dimgrey;
+  font-family: 'Roboto', sans-sans-serif;
+  font-style: italic, oblique;
 }
