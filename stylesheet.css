@@ -1,20 +1,22 @@
-/* font-family: 'Helvetica', sans-serif;
-font-family: 'Garamonod', serif;
-font-family: 'Roboto', sans-serif; */
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto', sans-serif;
+*/
 html {
   font-size: 15px;
   background-color: powderblue;
 }
 img {
-  height: 500px;
+  width: 100%;
   border: none;
   display: flex;
 }
 
 body {
   max-width: 800px;
+  width: 100%;
   margin: auto;
-  font-family: 'Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 h1 {
   font-family: 'Helvetica', sans-serif;
@@ -29,16 +31,16 @@ h2 {
 }
 ul {
   font-family: 'Roboto', sans-serif;
-  font-style: italic, oblique;
+  font-style: italic;
   list-style: none;
 }
 li {
   color: dimgrey;
   font-family: 'Roboto', sans-serif;
-  font-style: italic, oblique;
+  font-style: italic;
 }
 a {
   color: dimgrey;
   font-family: 'Roboto', sans-serif;
-  font-style: italic, oblique;
+  font-style: italic;
 }
