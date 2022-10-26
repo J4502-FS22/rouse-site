@@ -22,12 +22,6 @@ main {
   margin: 1rem auto;
 }
 
-h1 {
-  font-family: 'Helvetica', sans-serif;
-  font-style: normal;
-  font-size: 3rem;
-}
-
 /*beginning updated nav and ul,ol*/
 nav {
   color: white;
@@ -43,15 +37,13 @@ ul, ol {
   padding-inline-start: 0px;
   margin-block-start: 0px;
   margin-block-end;
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  list-style: none;
+  font-family: 'Coromont Garamond', serif;
 }
+
 /*end of updated nav and ul,ol*/
 
 nav a {
   color: white;
-  font-weight: bold;
 }
 
 a {
@@ -61,7 +53,7 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   margin: 0;
 }
 
@@ -73,6 +65,7 @@ h2 {
 li {
   list-style-type: none;
   font-style: italic;
+  font-family: 'Coromont Garamond', serif;
 }
 
 ol li {
