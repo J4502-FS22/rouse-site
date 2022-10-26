@@ -1,0 +1,51 @@
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto', sans-serif;
+*/
+html {
+  font-size: 15px;
+  background-color: powderblue;
+}
+img {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  display: flex;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+ul, ol {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  list-style: none;
+}
+li {
+  color: dimgrey;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+a {
+  color: #484848;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
