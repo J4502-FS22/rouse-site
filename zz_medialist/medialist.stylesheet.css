@@ -33,7 +33,7 @@ nav {
   color: white;
   background-color: dimgray;
   padding: 0;
-  diplay: block;
+  display: block;
   margin: 0;
   border-bottom: 3px solid white;
 }
@@ -146,5 +146,26 @@ footer {
   .text-holder {
     width: 70%
   }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  nav li {
+    width: 50%;
+  }
+}
+/*when the browser is at least 800px wide*/
+media (min-width: 800px) {
 
+  .image-holder {
+    width: 250px;
+  }
+
+  .text-holder {
+    width: calc(100%-250px);
+  }
+  nav li {
+    width: 25%;
+  }
 }
