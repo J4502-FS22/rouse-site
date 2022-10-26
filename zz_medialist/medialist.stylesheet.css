@@ -3,13 +3,7 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Roboto', sans-serif;
 */
 html {
-  font-size: 15px;
-}
-img {
-  width: 100%;
-  max-width: 400px;
-  border: none;
-  display: flex;
+  font-size: 20px;
 }
 
 body {
@@ -20,7 +14,7 @@ body {
 
 main {
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   background: white;
   border-radius: 1rem;
   padding: 1rem 2rem;
@@ -32,12 +26,6 @@ h1 {
   font-family: 'Helvetica', sans-serif;
   font-style: normal;
   font-size: 3rem;
-}
-
-h2 {
-  font-family: 'Helvetica', sans-serif;
-  font-style: italic;
-  font-size: 2rem;
 }
 
 /*beginning updated nav and ul,ol*/
@@ -66,9 +54,24 @@ nav a {
   font-weight: bold;
 }
 
+a {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: italic;
+}
+
 li {
-  color: white;
-  font-family: 'Coromont Garamond', serif;
+  list-style-type: none;
   font-style: italic;
 }
 
@@ -84,18 +87,13 @@ nav li, nav li a {
   align-items: center;
 }
 
-a {
-  color: #white;
-  font-family: 'Coromont Garamond', serif;
-  font-style: italic;
-}
-
 .active {
   background-color: black;
   color: white;
   padding: 1rem;
 }
 
+/*footer section*/
 footer {
   background: dimgray;
   color: white;
@@ -132,4 +130,21 @@ footer {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
+}
+
+/*when the browser is at least 555px wide*/
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .text-holder {
+    width: 70%
+  }
+
 }
