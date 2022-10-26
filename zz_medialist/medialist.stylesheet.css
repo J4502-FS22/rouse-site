@@ -4,7 +4,6 @@ font-family: 'Roboto', sans-serif;
 */
 html {
   font-size: 15px;
-  background-color: powderblue;
 }
 img {
   width: 100%;
@@ -15,6 +14,11 @@ img {
 
 body {
   font-family: 'Cormorant Garamond', serif;
+  background-color: powderblue;
+  margin: 0px;
+}
+
+main {
   width: 90%;
   max-width: 800px;
   background: white;
@@ -23,6 +27,7 @@ body {
   box-sizing: border-box;
   margin: 1rem auto;
 }
+
 h1 {
   font-family: 'Helvetica', sans-serif;
   font-style: normal;
@@ -34,21 +39,58 @@ h2 {
   font-style: italic;
   font-size: 2rem;
 }
+
+/*beginning updated nav and ul,ol*/
+nav {
+  color: white;
+  background-color: dimgray;
+  padding: 0;
+  diplay: block;
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+
 ul, ol {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   list-style: none;
 }
+/*end of updated nav and ul,ol*/
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
 li {
-  color: dimgrey;
-  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-family: 'Coromont Garamond', serif;
   font-style: italic;
 }
+
+ol li {
+  text-transform: uppercase;
+}
+
+nav li, nav li a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 a {
-  color: #484848;
-  font-family: 'Roboto', sans-serif;
+  color: #white;
+  font-family: 'Coromont Garamond', serif;
   font-style: italic;
 }
+
 footer {
   background: dimgray;
   color: white;
