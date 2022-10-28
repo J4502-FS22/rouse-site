@@ -48,7 +48,6 @@ nav a {
 
 a {
   font-weight: bold;
-  font-style: italic;
   text-decoration: none;
 }
 
@@ -64,7 +63,6 @@ h2 {
 
 li {
   list-style-type: none;
-  font-style: italic;
   font-family: 'Coromont Garamond', serif;
 }
 
@@ -95,8 +93,7 @@ footer {
   padding: 1rem;
   box-sizing: border-box;
   text-align: center;
-  font-family: 'Coromont Garamond'
-  font-weight:bold;
+  font-family: 'Coromont Garamond';
 }
 
 /*media sections*/
