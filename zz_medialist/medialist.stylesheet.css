@@ -146,15 +146,17 @@ footer {
   }
 }
 /*when the browser is at least 800px wide*/
-media (min-width: 800px) {
+/*When the browser is at least 800px wide*/
+@media (min-width: 800px) {
 
   .image-holder {
     width: 250px;
   }
 
   .text-holder {
-    width: calc(100%-250px);
+    width: calc(100% - 250px);
   }
+
   nav li {
     width: 25%;
   }
