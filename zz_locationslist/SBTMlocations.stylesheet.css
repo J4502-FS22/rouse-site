@@ -122,6 +122,10 @@ footer {
   margin: 0 auto;
 }
 
+address {
+  font-style: normal; 
+}
+
 /*when the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
@@ -134,7 +138,7 @@ footer {
   }
 
   .text-holder {
-    width: 70%
+    width: 100%
   }
   nav ul {
     display: flex;
@@ -154,7 +158,7 @@ footer {
   }
 
   .text-holder {
-    width: calc(100% - 250px);
+    width: 100%;
   }
 
   nav li {
