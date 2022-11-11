@@ -1,0 +1,163 @@
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Roboto', sans-serif;
+*/
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: powderblue;
+  margin: 0px;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+}
+
+/*beginning updated nav and ul,ol*/
+nav {
+  color: white;
+  background-color: dimgray;
+  padding: 0;
+  display: block;
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-family: 'Coromont Garamond', serif;
+}
+
+/*end of updated nav and ul,ol*/
+
+nav a {
+  color: white;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Coromont Garamond', serif;
+}
+
+ol li {
+  text-transform: uppercase;
+}
+
+nav li, nav li a {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+/*footer section*/
+footer {
+  background: dimgray;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Coromont Garamond';
+}
+
+/*media sections*/
+
+.media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.image-holder img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+/*when the browser is at least 555px wide*/
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .image-holder {
+    width: 30%;
+  }
+
+  .text-holder {
+    width: 70%
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  nav li {
+    width: 50%;
+  }
+}
+/*when the browser is at least 800px wide*/
+/*When the browser is at least 800px wide*/
+@media (min-width: 800px) {
+
+  .image-holder {
+    width: 250px;
+  }
+
+  .text-holder {
+    width: calc(100% - 250px);
+  }
+
+  nav li {
+    width: 25%;
+  }
+}
