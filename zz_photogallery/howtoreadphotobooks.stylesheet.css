@@ -127,6 +127,18 @@ address {
   font-style: normal;
 }
 
+/*figures and .gallery-image styles*/
+.gallery-images {
+  margin-block-start:0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.gallery-image img{
+  width: 100%
+}
+
 /*when the browser is at least 555px wide*/
 @media (min-width: 555px) {
 
