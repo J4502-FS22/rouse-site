@@ -2,6 +2,25 @@
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Roboto', sans-serif;
 */
+.skip-link {
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
+
 html {
   font-size: 20px;
 }
